@@ -1,0 +1,273 @@
+.prettyprint {
+  background: #212128;
+  font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+}
+
+pre.prettyprint {
+  padding: 10px 0 0 10px;
+}
+
+pre.prettyprint.index {
+padding: 5px 0 0 0px;
+width: 95%;
+margin: 10px auto;
+}
+
+@media screen and (min-width: 801px) {
+
+  .prettyprint {
+   max-width: 660px;
+  }
+
+}
+
+.prettyprint.transparent {
+padding: 10px 0 0 0px;
+width: 80%;
+margin: 0 auto;
+background: transparent !important;
+}
+
+.prettyprint.single_line {
+   padding-top: 12px !important;
+   height: 30px !important;
+}
+
+.pln {
+  color: #eaeaea;
+}
+
+.jquery_func .pln {
+  color: #81A2BE;
+}
+
+.php_var .pln {
+  color: #CC6666;
+}
+
+.php_func .pln {
+  color: #81A2BE
+}
+
+.orange .pln {
+  color: #e78c45;
+}
+
+.ruby_constant .pln {
+  color: #7aa6da !important
+}
+
+@media screen {
+  .str {
+    color: #b9ca4a;
+  }
+
+  .kwd {
+    color: #c397d8;
+  }
+
+  .nocolor .orange .kwd,
+  .orange .kwd {
+    color: #e78c45 !important;
+  }
+
+  .white .kwd {
+	color: #fff;
+  }
+
+  .white .typ {
+	color: #fff;
+  }
+
+  .com {
+    color: #eaeaea;
+  }
+
+  .fade .com {
+    color: #999;
+  }
+
+  .orange .com {
+    color: #e78c45;
+  }
+
+  .yellow .com {
+    color: #b9ca4a;
+  }
+
+  .blue .com {
+  color: #81A2BE
+  }
+
+  .typ {
+    color: #7aa6da;
+  }
+
+.orange .typ {
+  color: #e78c45;
+}
+
+  .lit {
+    color: #e78c45;
+  }
+
+  .white .lit {
+	color: #fff !important;
+  }
+
+  .nocolor .orange .lit,
+  .orange .lit {
+    color: #e78c45 !important;
+  }
+
+  .pun {
+    color: #eaeaea;
+  }
+
+  .orange .pun {
+    color: #e78c45;
+  }
+
+  .opn {
+    color: #eaeaea;
+  }
+
+  .clo {
+    color: #eaeaea;
+  }
+
+  .tag {
+    color: #d54e53;
+  }
+
+  .atn {
+    color: #e78c45;
+  }
+
+  .white .atn {
+	color: #fff;
+  }
+
+  .atv {
+    color: #70c0b1;
+  }
+
+  .yellow .atv {
+    color: #b9ca4a;
+  }
+
+  .dec {
+    color: #e78c45;
+  }
+
+  .var {
+    color: #d54e53;
+  }
+
+  .fun {
+    color: #7aa6da;
+  }
+}
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+list-style-type: inherit;
+line-height: 20px;
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+background: transparent;
+}
+
+pre.nocolor span.kwd,
+pre.nocolor span.typ,
+pre.nocolor span.lit,
+pre.nocolor span.str {
+   color: #eaeaea !important;
+}
+
+pre.nocolor .orange span.typ {
+   color: #e78c45 !important;
+}
+
+pre.nocolor .php_func .lit {
+  color: #81A2BE !important;
+}
+
+pre.nocolor .php_func .kwd {
+  color: #81A2BE !important;
+}
+
+pre.nocolor .disabled .php_func .kwd,
+pre.nocolor .disabled .pun,
+pre.nocolor .disabled .pln {
+  color: #555 !important;
+  cursor: default;
+}
+
+pre.line_height .str {
+line-height: 22px;
+}
