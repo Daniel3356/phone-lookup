@@ -2,8 +2,6 @@
 
 This is a Phone Carrier Location Using Curl Method To get Numverify's Data
 
-https://github.com/zsxsoft/php-useragent
-
 
 ## Using the script
 
